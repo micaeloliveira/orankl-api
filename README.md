@@ -6,7 +6,7 @@ To gain API access to Orankl.com, please contact support@orankl.com
 
 ## review_request
 
-The review_request enpoint is used to send "review request notifications" to customers after they have made a purchase. This sends them an email prompting them to leave a review for the product(s) they purchased. The email sent after then number of days configured in the orankl dashboard.
+The review_request enpoint is used to send "review request notifications" to customers after they have made a purchase. This sends them an email prompting them to leave a review for the product(s) they purchased. The email is sent after the number of days you have configured in the orankl dashboard.
 
 Make a post to this endpoint with customer and order information after the order has been fulfilled to trigger the email.
 
