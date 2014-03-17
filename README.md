@@ -3,6 +3,27 @@ orankl-api
 
 To gain API access to Orankl.com, please contact support@orankl.com
 
+## Review integration
+
+You will need to add the following script to the head of your pages, with your store key
+
+````html
+<script src="https://orankl.com/javascript?store_key=your-store-key-here" type="text/javascript"></script>
+````
+
+As well as the following snippet on each one of your product pages, with the corresponding values replaced
+
+````html
+<div id="orankl-reviews"
+  data-store-key="YOUR STORE KEY"
+  data-product-name="PRODUCT NAME"
+  data-product-key="UNIQUE PRODUCT IDENTIFIER"
+  data-product-image-url=" PRODUCT IMAGE URL"
+  data-product-description="PRODUCT DESCRIPTION"
+  data-product-price="PRODUCT PRICE"
+  data-currency="PRODUCT CURRENCY"
+></div>
+````
 
 ## review_request
 
