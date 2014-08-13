@@ -72,8 +72,8 @@ Key  | Value | Required
   "order":{
     "order_id":"#123",
     "customer":{
-      "email":"craig+apitest@orankl.com",
-      "name":"Craig Kochis"
+      "email":"mica+apitest@orankl.com",
+      "name":"Micael Oliveira"
     },
     "products":[
       {
@@ -97,5 +97,5 @@ curl https://orankl.com/api/review_request \
   -X POST \
   -H "Content-Type: application/json" \ 
   -H "Authorization: Token token=74459d337947c1f170519fbbe38ef56c" \
-  -d '{ "store_key":"27cea66f-d942-47d3-b1e8-ab4258152828", "order":{ "order_id":"#123", "customer":{ "email":"mica+apitest@orankl.com", "name":"Mica" }, "products":[ { "key":"1", "name":"product 1", "url":"http://store.com/product_1", "image":"http://store.com/images/product_1.jpg", "description":"Product description", "price":"1.99", "currency":"USD" } ] } }' 
+  -d '{ "store_key":"27cea66f-d942-47d3-b1e8-ab4258152828", "order":{ "order_id":"#123", "customer":{ "email":"mica+apitest@orankl.com", "name":"Micael Oliveira" }, "products":[ { "key":"1", "name":"product 1", "url":"http://store.com/product_1", "image":"http://store.com/images/product_1.jpg", "description":"Product description", "price":"1.99", "currency":"USD" } ] } }' 
 ````
