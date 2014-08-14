@@ -35,7 +35,7 @@ Make a post to this endpoint with customer and order information after the order
 
 Method  | Endpoint
 ------------- | -------------
-POST  | `https://orankl.com/api/review_request`
+POST  | `https://www.orankl.com/api/review_request`
 
 
 #### Authorization
