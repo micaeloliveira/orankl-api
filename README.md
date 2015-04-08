@@ -93,7 +93,7 @@ Key  | Value | Required
 #### Example curl request
 
 ````bash
-curl https://orankl.com/api/review_request \
+curl https://www.orankl.com/api/review_request \
   -X POST \
   -H "Content-Type: application/json" \ 
   -H "Authorization: Token token=74459d337947c1f170519fbbe38ef56c" \
